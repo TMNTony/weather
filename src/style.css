@@ -1,9 +1,18 @@
 body {
-    color: blue;
+    color: black;
     background: url(/src/img/sunny.jpg) no-repeat center fixed;
     background-size:cover;
     display: grid;
     justify-content: center;
     justify-items: center;
-    color: white;
+
+}
+
+.result {
+    display: grid;
+    
+}
+
+.result > div {
+    margin: 10px;
 }
