@@ -17,5 +17,4 @@ zipBtn.addEventListener("click", () => {
   myFetcher(zipcode);
 });
 
-myFetcher(35244);
 console.log("Hello World");
