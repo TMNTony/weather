@@ -1,6 +1,6 @@
 import "./style.css";
 
-const zip = document.getElementById("#zip");
+const zip = document.getElementById("zip");
 const result = document.querySelector(".result");
 const zipBtn = document.querySelector("#zipBtn");
 
@@ -17,4 +17,4 @@ zipBtn.addEventListener("click", () => {
   myFetcher(zipcode);
 });
 
-console.log("Hello World");
+myFetcher(35244);
