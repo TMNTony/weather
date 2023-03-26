@@ -12,7 +12,7 @@ module.exports = {
   watch: true,
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Todo List",
+      title: "Weather App",
       template: "./src/template.html",
       filename: "./index.html",
     }),
