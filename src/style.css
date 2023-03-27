@@ -6,6 +6,9 @@ body {
     background: url(/src/img/sunny.jpg) no-repeat center fixed;
     background-size:cover;
 }
+#zip {
+    border-radius: 5px;
+}
 
 .sunny {
     background: url(/src/img/sunny.jpg) no-repeat center fixed;
@@ -20,8 +23,36 @@ body {
 .result {
     display: grid;
     background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 75%;
+    justify-content: center;
+    justify-items: center;
 }
 
 .result > div {
     margin: 10px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.input {
+    margin-bottom: 20px;
+}
+
+.city {
+    font-size: 150%;
+    text-align: center;
+}
+
+.temp {
+    font-size: 300%;
+    text-align: center;
+}
+
+.icon {
+    margin-top: 0px;
+}
+.condition {
+    margin-bottom: 10px;
 }
