@@ -15,7 +15,7 @@ body {
 .night {
     background: url(/src/img/night.jpg) no-repeat center fixed;
     background-size:cover;
-    color: white;
+    color: black
 }
 .result {
     display: grid;

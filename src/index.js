@@ -14,15 +14,15 @@ function updateWeather(weatherData) {
   const condition = document.querySelector(".condition");
   const icon = document.querySelector(".icon");
   const city = document.querySelector(".city");
-  const wind = document.querySelector(".wind");
-  const humidity = document.querySelector(".humidity");
+  // const wind = document.querySelector(".wind");
+  // const humidity = document.querySelector(".humidity");
 
   condition.innerHTML = weatherData.current.condition.text;
   icon.src = weatherData.current.condition.icon;
   temp.innerHTML = weatherData.current.temp_f;
   city.innerHTML = weatherData.location.name;
-  wind.innerHTML = weatherData.current.wind_mph;
-  humidity.innerHTML = weatherData.current.humidity;
+  // wind.innerHTML = weatherData.current.wind_mph;
+  // humidity.innerHTML = weatherData.current.humidity;
 }
 
 function background(weatherData) {
