@@ -27,7 +27,7 @@ function updateWeather(weatherData) {
 
 function background(weatherData) {
   const isDay = weatherData.current.is_day;
-  if (isDay == 0) {
+  if (isDay === 0) {
     document.body.classList.add("night");
   }
 }
