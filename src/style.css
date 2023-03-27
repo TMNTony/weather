@@ -3,6 +3,8 @@ body {
     display: grid;
     justify-content: center;
     justify-items: center;
+    background: url(/src/img/sunny.jpg) no-repeat center fixed;
+    background-size:cover;
 }
 
 .sunny {
@@ -13,10 +15,11 @@ body {
 .night {
     background: url(/src/img/night.jpg) no-repeat center fixed;
     background-size:cover;
+    color: white;
 }
 .result {
     display: grid;
-    
+    background-color: white;
 }
 
 .result > div {
